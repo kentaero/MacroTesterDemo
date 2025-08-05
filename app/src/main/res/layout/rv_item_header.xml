@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1,2">
+        <TableRow>
+            <TextView
+                android:layout_width="60dp"
+                android:padding="5dp"
+                android:background="@drawable/cell_shape"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textAlignment="center"
+                android:text="No"/>
+            <TextView
+                android:layout_width="100dp"
+                android:padding="5dp"
+                android:background="@drawable/cell_shape"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textAlignment="center"
+                android:text="검색키워드"/>
+            <TextView
+                android:layout_width="100dp"
+                android:padding="5dp"
+                android:background="@drawable/cell_shape"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textAlignment="center"
+                android:text="찾을 문자열"/>
+            <TextView
+                android:layout_width="90dp"
+                android:padding="5dp"
+                android:background="@drawable/cell_shape"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textAlignment="center"
+                android:text="체류시간"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

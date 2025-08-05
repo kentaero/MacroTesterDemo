@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="Config_Category"
+        android:title="매크도 환경설정">
+        <EditTextPreference
+            android:key="ComId"
+            android:title="회사 ID"
+            app:useSimpleSummaryProvider="true"
+            />
+<!--        기기 ID 설정-->
+        <EditTextPreference
+            android:key="SmartId"
+            android:title="스마트폰 ID"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="RebootOnWorkLimit"
+            android:title="매크로 동작 횟수 (Set, 재부팅 설정)"
+            app:useSimpleSummaryProvider="true" />
+<!--        <EditTextPreference-->
+<!--            android:key="MacroRunDelayMin"-->
+<!--            android:summary="매크로앱작업 완료 후 다음매크로작업까지 대기시간, 랜덤"-->
+<!--            android:title="재실행 시간(분)"-->
+<!--            app:useSimpleSummaryProvider="true"/>-->
+<!--        <EditTextPreference-->
+<!--            android:key="MacroSetDelayMin"-->
+<!--            android:summary="1세트 실행 후 대기시간, 랜덤"-->
+<!--            android:title="재사용 시간(분)"-->
+<!--            app:useSimpleSummaryProvider="true"/>-->
+    </PreferenceCategory>
+<!--    <PreferenceCategory-->
+<!--        android:key="MainConfig"-->
+<!--        android:title="매크로 수동 동작 설정">-->
+<!--        <PreferenceScreen-->
+<!--            android:title="매크로 이벤트 추가"-->
+<!--            android:summary="매크로 동작이벤트를 추가합니다.">-->
+
+<!--            &lt;!&ndash; 추가 버튼 클릭 시 실행될 동작을 설정합니다. &ndash;&gt;-->
+<!--            <intent-->
+<!--                android:action="com.example.app.ADD_SETTINGS"-->
+<!--                android:targetPackage="com.example.macrotester"-->
+<!--                android:targetClass="com.example.macrotester.AdditionalSettingsActivity" />-->
+<!--        </PreferenceScreen>-->
+<!--    </PreferenceCategory>-->
+
+</PreferenceScreen>
